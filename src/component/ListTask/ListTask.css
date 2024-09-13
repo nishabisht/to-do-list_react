@@ -1,0 +1,18 @@
+.d-flex {
+    display: flex;
+  }
+  
+  .m-3 {
+    margin: 1rem;
+  }
+  
+  .card {
+    width: 15rem;
+    height: auto;
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+  }
+  

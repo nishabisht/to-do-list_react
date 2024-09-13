@@ -1,0 +1,10 @@
+.btn-theme{
+    background: #f7818f !important;
+    color: white !important;
+    border: 1px solid #ff5d6f !important;
+}
+.btn-theme:hover{
+    background: #ff5d6f !important;
+    color: white !important;
+    border: 1px solid #ff5d6f !important;
+}

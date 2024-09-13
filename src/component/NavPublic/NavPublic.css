@@ -1,0 +1,14 @@
+#logo{
+    width: 8%;
+    border-radius: 50%;
+}
+#navbtn:hover{
+        background: #ff5d6f;
+        color: white;
+        border: 1px solid #ff5d6f ;
+}
+.theme{
+    margin: 0px;
+    padding: 0px;
+    background: #f8cccc70 ;
+}

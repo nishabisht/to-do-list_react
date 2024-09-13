@@ -1,0 +1,13 @@
+.container-fuild {
+    margin: 0px !important;
+    padding: 0% 0%;
+    width: 100vw !important;
+}
+.text-left{
+    display: flex;
+    flex-direction: row;
+}
+.text-right{
+    display: flex;
+    flex-direction: row-reverse;
+}
