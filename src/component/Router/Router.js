@@ -6,7 +6,7 @@ import { SignUp } from "../SignUp/SignUp";
 import { NavPublic } from "../NavPublic/NavPublic";
 export const Router = createBrowserRouter([
   {
-    path: "/",
+    path: "/to-do-list_react",
     element: <Home />,
   },
   {
