@@ -72,10 +72,10 @@ function Home() {
       </div>
       <HelpCenter helpCenter={helpCenter} />
 
-      <div className="d-flex justify-content-center gap-2 flex-wrap flex-grow">
+      {/* <div className="d-flex justify-content-center gap-2 flex-wrap flex-grow">
         <SignUp />
         <SignIn />
-      </div>
+      </div> */}
       <Footer />
     </div>
   );

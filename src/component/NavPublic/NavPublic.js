@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../../assest/img/logo.png";
+import { Link } from "react-router-dom";
 import "./NavPublic.css";
 
 const NavPublic = () => {
@@ -30,31 +31,35 @@ const NavPublic = () => {
           >
             <ul class="navbar-nav  mb-2 mb-lg-0 px-3">
               <li class="nav-item mx-3">
-                <a class="nav-link active" aria-current="page" href="#">
+                <Link
+                  class="nav-link active"
+                  aria-current="page"
+                  to="/to-do-list_react"
+                >
                   Home
-                </a>
+                </Link>
               </li>
               <li class="nav-item mx-3">
-                <a class="nav-link" href="#">
+                <Link class="nav-link" to="/to-do-list_react">
                   Features
-                </a>
+                </Link>
               </li>
               <li class="nav-item mx-3">
-                <a class="nav-link" href="#">
+                <Link class="nav-link" to="/to-do-list_react">
                   Help Center
-                </a>
+                </Link>
               </li>
               <li class="nav-item mx-3">
-                <a class="nav-link" href="#">
+                <Link class="nav-link" to="/sign-in">
                   Sign In
-                </a>
+                </Link>
               </li>
               <li className="nav-item mx-3">
                 <button
                   className="nav-link btn border border-black"
                   id="navbtn"
                 >
-                  Sign Up for free
+                  <Link to="/register">Sign Up for free</Link>
                 </button>
               </li>
             </ul>

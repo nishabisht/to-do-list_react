@@ -1,4 +1,5 @@
 {
+  "homepage": "https://nishabisht.github.io/to-do-list_react",
   "name": "todolist",
   "version": "0.1.0",
   "private": true,
@@ -8,14 +9,18 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.7.2",
     "bootstrap": "^5.3.3",
+    "gh-pages": "^6.2.0",
     "json-server": "^1.0.0-beta.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-icons": "^5.2.1",
+    "react-router-dom": "^6.27.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

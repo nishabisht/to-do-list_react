@@ -1,9 +1,12 @@
 import React from "react";
 import "./SignIn.css";
+import { NavPublic } from "../NavPublic/NavPublic";
+import { Footer } from "../Footer/Footer";
 
 const SignIn = () => {
   return (
     <>
+      <NavPublic />
       <div
         className="d-flex flex-grow justify-content-center flex-wrap border theme p-3 my-5 rounded-4 shadow "
         style={{ width: "20vw" }}
@@ -65,6 +68,7 @@ const SignIn = () => {
           </button>
         </form>
       </div>
+      <Footer />
     </>
   );
 };
