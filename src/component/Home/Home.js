@@ -55,7 +55,7 @@ function Home() {
 
   return (
     <div className="container-fuild">
-      <DataFetch />
+      {/* <DataFetch /> */}
       <NavPublic />
       <div className="mt-5">
         {textSection.map((section, index) => (
